@@ -9,4 +9,13 @@
 body {
   min-height: max(844px, 100dvh);
   margin: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.safe-area-top {
+  padding-top: env(safe-area-inset-top);
 }
